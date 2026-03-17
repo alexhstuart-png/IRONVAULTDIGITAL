@@ -1,1 +1,16 @@
-.check-label input[type="checkbox"]{ appearance:auto; -webkit-appearance:checkbox; width:16px; height:16px; margin:0; padding:0; accent-color: var(--gold); cursor:pointer; flex-shrink:0; background: transparent; border: 0; }
+.check-label input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.check-label input[type="checkbox":checked] {
+    background-color: #4caf50;
+}
+
+.check-label input[type="checkbox"]:focus {
+    outline: none;
+}
