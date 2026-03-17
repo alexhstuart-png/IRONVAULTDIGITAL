@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iron Vault Digital — Lock In Your Website</title>
+<!-- SEO -->
+<meta name="description" content="Secure your custom website build for $3,000 total. $500 deposit today, $2,500 on completion. Includes domain, SSL, mobile optimisation and full handover.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="author" content="Iron Vault Digital">
+<link rel="canonical" href="https://www.ironvaultdigital.com.au/payment.html">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get Your Website — Iron Vault Digital">
+<meta property="og:description" content="Secure your custom website build for $3,000 total. $500 deposit today, $2,500 on completion. Includes domain, SSL, mobile optimisation and full handover.">
+<meta property="og:url" content="https://www.ironvaultdigital.com.au/payment.html">
+<meta property="og:site_name" content="Iron Vault Digital">
+<meta property="og:image" content="https://www.ironvaultdigital.com.au/og-image.png">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Get Your Website — Iron Vault Digital">
+<meta name="twitter:description" content="Secure your custom website build for $3,000 total. $500 deposit today, $2,500 on completion. Includes domain, SSL, mobile optimisation and full handover.">
+<meta name="twitter:image" content="https://www.ironvaultdigital.com.au/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0b0b;--surface:#111111;--surface2:#161616;
+  --border:rgba(255,255,255,0.07);--border-hi:rgba(255,255,255,0.13);
+  --white:#f0ede8;--muted:rgba(240,237,232,0.48);--faint:rgba(240,237,232,0.10);
+  --gold:#c8a951;--gold-lo:rgba(200,169,81,0.10);--gold-mid:rgba(200,169,81,0.22);--gold-hi:#e2c36e;
+  --serif:'Instrument Serif',Georgia,serif;--sans:'Geist',system-ui,sans-serif;--mono:'Geist Mono',monospace;
+  --r-nav:72px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--white);font-family:var(--sans);font-weight:300;line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;min-height:100vh}
+body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.032'/%3E%3C/svg%3E");pointer-events:none;z-index:9000}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:500;height:var(--r-nav);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(1.25rem,4vw,3.5rem);background:rgba(11,11,11,0.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}
+.nav-logo{display:flex;align-items:center;gap:.65rem;text-decoration:none}
+.nav-logo img{height:26px}
+.nav-secure{font-family:var(--mono);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.5rem}
+
+/* LAYOUT */
+.payment-wrap{
+  max-width:1100px;margin:0 auto;
+  padding:clamp(3rem,7vh,6rem) clamp(1.25rem,4vw,3.5rem);
+  display:grid;grid-template-columns:1fr 380px;
+  gap:3rem;align-items:start;
+}
+
+/* LEFT COLUMN */
+.pay-tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.25rem;display:flex;align-items:center;gap:.8rem}
+.pay-tag::before{content:'';width:26px;height:1px;background:var(--gold);flex-shrink:0}
+h1.pay-title{font-family:var(--serif);font-size:clamp(2.6rem,6vw,5rem);line-height:.95;color:var(--white);margin-bottom:1.25rem}
+h1.pay-title em{font-style:italic;color:var(--gold)}
+.pay-sub{font-size:.95rem;color:var(--muted);max-width:48ch;line-height:1.75;margin-bottom:2.5rem}
+
+/* VALUE PROP */
+.value-banner{
+  background:var(--gold-lo);border:1px solid rgba(200,169,81,.3);
+  padding:1.25rem 1.5rem;margin-bottom:2.5rem;
+  display:flex;align-items:flex-start;gap:1rem;
+}
+.value-banner-icon{color:var(--gold);font-size:1.2rem;flex-shrink:0;margin-top:.1rem}
+.value-banner-text{font-size:.875rem;color:var(--white);line-height:1.65}
+.value-banner-text strong{color:var(--gold)}
+
+/* WHAT'S INCLUDED */
+.included-block{margin-bottom:2.5rem}
+.block-title{font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem}
+.feature-list{list-style:none;display:flex;flex-direction:column;gap:0;background:var(--border)}
+.feature-list li{
+  background:var(--surface);padding:1rem 1.25rem;border-bottom:1px solid var(--border);
+  font-size:.875rem;color:var(--muted);display:flex;align-items:center;gap:.75rem;
+  transition:background .2s,color .2s;
+}
+.feature-list li:hover{background:var(--surface2);color:var(--white)}
+.feature-list li::before{content:'✔';color:var(--gold);font-size:.72rem;flex-shrink:0}
+
+/* HOW IT WORKS */
+.steps{display:flex;flex-direction:column;gap:1px;background:var(--border);margin-bottom:2.5rem}
+.step{background:var(--surface);padding:1.5rem;display:flex;gap:1.25rem;align-items:flex-start;transition:background .2s}
+.step:hover{background:var(--surface2)}
+.step-num{
+  width:40px;height:40px;background:var(--gold-lo);border:1px solid rgba(200,169,81,.3);
+  display:grid;place-items:center;flex-shrink:0;
+  font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;color:var(--gold);
+}
+.step-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem}
+.step-title{font-family:var(--sans);font-weight:500;color:var(--white);font-size:.95rem;margin-bottom:.25rem}
+.step-price{font-family:var(--serif);font-size:1.8rem;color:var(--white);line-height:1;margin:.35rem 0}
+.step-price em{font-style:italic;color:var(--gold)}
+.step-note{font-size:.8rem;color:var(--muted);line-height:1.6}
+
+/* PERKS */
+.perks{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);margin-top:2rem}
+.perk{background:var(--surface);padding:1.25rem 1.25rem;transition:background .2s}
+.perk:hover{background:var(--surface2)}
+.perk-icon{font-size:.9rem;margin-bottom:.5rem}
+.perk-text{font-size:.8rem;color:var(--muted);line-height:1.6}
+
+/* RIGHT COLUMN — ORDER BOX */
+.order-box{
+  background:var(--surface);border:1px solid var(--border);
+  position:sticky;top:calc(var(--r-nav) + 1.5rem);
+  overflow:hidden;
+}
+.order-box-head{
+  padding:1.5rem;border-bottom:1px solid var(--border);
+  background:var(--surface2);
+}
+.order-box-tag{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+.order-box-title{font-family:var(--serif);font-size:1.4rem;color:var(--white);line-height:1.1}
+.order-lines{padding:0;border-bottom:1px solid var(--border)}
+.order-line{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 1.5rem;border-bottom:1px solid var(--border);
+  font-size:.855rem;
+}
+.order-line:last-child{border-bottom:none}
+.ol-label{color:var(--muted)}
+.ol-val{color:var(--white);font-weight:500}
+.ol-val.gold{color:var(--gold)}
+.ol-val.strike{text-decoration:line-through;color:var(--muted);font-size:.8rem}
+.order-total{
+  padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);
+  background:var(--surface2);display:flex;justify-content:space-between;align-items:center;
+}
+.ot-label{font-family:var(--mono);font-size:.65rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.ot-val{font-family:var(--serif);font-size:1.5rem;color:var(--gold)}
+
+.order-cta-area{padding:1.5rem;display:flex;flex-direction:column;gap:.75rem}
+.pay-btn{
+  display:block;text-align:center;text-decoration:none;
+  background:var(--gold);color:#000;
+  font-family:var(--sans);font-weight:600;font-size:.875rem;
+  letter-spacing:.08em;text-transform:uppercase;
+  padding:1.1rem 1rem;
+  transition:background .2s,transform .2s,box-shadow .2s;
+}
+.pay-btn:hover{background:var(--gold-hi);transform:translateY(-2px);box-shadow:0 12px 40px rgba(200,169,81,.25)}
+.pay-btn-sub{font-size:.72rem;color:var(--muted);text-align:center;line-height:1.6}
+.trust-row{display:flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border);padding-top:.75rem}
+.abn-note{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(240,237,232,.25);text-align:center;padding-bottom:.25rem}
+
+/* CARE PLAN */
+.care-section{
+  max-width:1100px;margin:0 auto;
+  padding:0 clamp(1.25rem,4vw,3.5rem) clamp(4rem,8vh,7rem);
+}
+.care-card{
+  background:var(--surface);border:1px solid var(--border);
+  display:grid;grid-template-columns:1fr 1fr;gap:0;
+  position:relative;overflow:hidden;
+}
+.care-card::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold)}
+.care-left{padding:2.5rem 2.5rem;border-right:1px solid var(--border)}
+.care-tag{font-family:var(--mono);font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+.care-title{font-family:var(--serif);font-size:2rem;line-height:1.05;color:var(--white);margin-bottom:.75rem}
+.care-title em{font-style:italic;color:var(--gold)}
+.care-sub{font-size:.875rem;color:var(--muted);line-height:1.7;max-width:38ch;margin-bottom:1.5rem}
+.care-pricing{display:flex;align-items:flex-end;gap:.75rem;flex-wrap:wrap}
+.care-now{font-family:var(--serif);font-size:2.8rem;color:var(--white);line-height:1}
+.care-now em{font-style:italic;color:var(--gold)}
+.care-per{font-size:.8rem;color:var(--muted);line-height:1.5}
+.care-right{padding:2.5rem;display:flex;flex-direction:column;justify-content:space-between}
+.care-features{list-style:none;display:flex;flex-direction:column;gap:0;margin-bottom:2rem}
+.care-features li{padding:.7rem 0;border-bottom:1px solid var(--border);font-size:.875rem;color:var(--muted);display:flex;align-items:center;gap:.75rem}
+.care-features li::before{content:'✔';color:var(--gold);font-size:.72rem;flex-shrink:0}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:.45rem;font-family:var(--sans);font-weight:500;font-size:.8125rem;letter-spacing:.09em;text-transform:uppercase;padding:.85rem 1.75rem;text-decoration:none;border:none;cursor:pointer;transition:all .25s;white-space:nowrap}
+.btn-gold{background:var(--gold);color:#000}
+.btn-gold:hover{background:var(--gold-hi);transform:translateY(-2px);box-shadow:0 10px 36px rgba(200,169,81,.22)}
+.btn-ghost{background:transparent;color:var(--white);border:1px solid var(--border-hi)}
+.btn-ghost:hover{border-color:rgba(200,169,81,.45);color:var(--gold);transform:translateY(-2px)}
+.cancel-note{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.6rem}
+
+/* FOOTER */
+footer{background:var(--bg);border-top:1px solid var(--border);padding:2rem clamp(1.25rem,4vw,3.5rem)}
+.footer-base{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem}
+.f-logo{display:flex;align-items:center;gap:.6rem;text-decoration:none}
+.f-logo img{height:22px}
+.f-logo span{font-size:.85rem;font-weight:500;color:var(--white)}
+.f-copy{font-size:.75rem;color:var(--muted)}
+
+@media(max-width:860px){
+  .payment-wrap{grid-template-columns:1fr;gap:2.5rem}
+  .order-box{position:static}
+  .care-card{grid-template-columns:1fr}
+  .care-left{border-right:none;border-bottom:1px solid var(--border)}
+  .perks{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo"><img src="/logo.svg" alt="Iron Vault Digital" style="height:36px;width:auto"></a>
+  <div class="nav-secure">🔒 Secure Checkout</div>
+</nav>
+
+<div class="payment-wrap">
+
+  <!-- LEFT -->
+  <div>
+    <div class="pay-tag">// You're Almost In</div>
+    <h1 class="pay-title">Lock In Your <em>Website.</em></h1>
+    <p class="pay-sub">You've made a great call. Here's exactly what you're getting — secure your spot with a $500 deposit today and we'll handle the rest from there.</p>
+
+    <!-- WHAT'S INCLUDED -->
+    <div class="included-block">
+      <div class="block-title">What's Included</div>
+      <ul class="feature-list">
+        <li>Custom website design &amp; build</li>
+        <li>Domain purchased &amp; connected</li>
+        <li>Mobile &amp; desktop optimised</li>
+        <li>SSL certificate (HTTPS)</li>
+        <li>1 round of revisions included</li>
+        <li>Live within 2–3 weeks</li>
+        <li>Full handover — you own everything</li>
+      </ul>
+    </div>
+
+    <!-- HOW PAYMENTS WORK -->
+    <div class="block-title">How Payments Work</div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div>
+          <div class="step-label">Pay Today — Project Kicks Off</div>
+          <div class="step-title">Deposit</div>
+          <div class="step-price"><em>$500</em></div>
+          <div class="step-note">Secures your spot. We start work immediately.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div>
+          <div class="step-label">Remaining Balance — Invoiced by Us</div>
+          <div class="step-title">On Completion</div>
+          <div class="step-price"><em>$2,500</em></div>
+          <div class="step-note">Invoiced once your site is built, reviewed, and ready to go live. You're happy before you pay the rest.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PERKS -->
+    <div class="perks">
+      <div class="perk">
+        <div class="perk-icon">⚡</div>
+        <div class="perk-text">Work starts within 24 hours of payment</div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">📋</div>
+        <div class="perk-text">Short website questionnaire sent immediately — takes 5 mins</div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">🔒</div>
+        <div class="perk-text">You own the domain and site outright on completion</div>
+      </div>
+      <div class="perk">
+        <div class="perk-icon">💬</div>
+        <div class="perk-text">Direct access to your project manager throughout</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT — ORDER BOX -->
+  <div class="order-box">
+    <div class="order-box-head">
+      <div class="order-box-tag">Order Summary</div>
+      <div class="order-box-title">Iron Vault Website Package</div>
+    </div>
+    <div class="order-lines">
+      <div class="order-line">
+        <div class="ol-label">Custom Website Build</div>
+        <div class="ol-val gold">$3,000</div>
+      </div>
+      <div class="order-line">
+        <div class="ol-label">Domain Registration</div>
+        <div class="ol-val">Included</div>
+      </div>
+      <div class="order-line">
+        <div class="ol-label">SSL Certificate</div>
+        <div class="ol-val">Included</div>
+      </div>
+      <div class="order-line">
+        <div class="ol-label">1 Round of Revisions</div>
+        <div class="ol-val">Included</div>
+      </div>
+    </div>
+    <div class="order-total">
+      <div>
+        <div class="ot-label">Total Value</div>
+        <div style="font-size:.75rem;color:var(--muted);margin-top:.2rem">Deposit due today</div>
+      </div>
+      <div>
+        <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);text-align:right;margin-bottom:.25rem">$2,500 balance invoiced later</div>
+        <div class="ot-val">$500</div>
+      </div>
+    </div>
+    <div class="order-cta-area">
+      <a href="https://buy.stripe.com/dRm00l9UeaKRdBieet3oA00" class="pay-btn">Pay $500 Deposit<br><span style="font-size:.7rem;font-weight:400;opacity:.7">Powered by Stripe · Secure payment</span></a>
+      <p class="pay-btn-sub">256-bit SSL · Your details are safe</p>
+      <div class="trust-row">🔒 Iron Vault Digital · ABN 17 636 500 418</div>
+      <div class="abn-note">ABN 17 636 500 418</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CARE PLAN -->
+<div class="care-section">
+  <div class="care-card">
+    <div class="care-left">
+      <div class="care-tag">// Add-On — Monthly Care Plan</div>
+      <div class="care-title">We Won't Leave You<br><em>High &amp; Dry.</em></div>
+      <p class="care-sub">Once your site is live, we manage it for you directly — no hosting account needed, no tech headaches, nothing to figure out. Just tell us what needs changing and we handle it.</p>
+      <div class="care-pricing">
+        <div>
+          <div class="care-now"><em>$200</em></div>
+        </div>
+        <div class="care-per">/month<br>No lock-in contract</div>
+      </div>
+    </div>
+    <div class="care-right">
+      <ul class="care-features">
+        <li>Hosting managed for you</li>
+        <li>3 content changes per month</li>
+        <li>No hosting account required</li>
+        <li>Cancel anytime</li>
+      </ul>
+      <div>
+        <a href="https://buy.stripe.com/bJe3cx6I29GN40I5HX3oA04" class="btn btn-ghost">Add This On →</a>
+        <div class="cancel-note">No lock-in · Cancel anytime</div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:1.5rem;font-size:.8rem;color:var(--muted);text-align:center">
+    Got a question before you commit? <a href="mailto:alex@ironvaultdigital.com.au" style="color:var(--gold);text-decoration:none">Send us a message</a> — we'll get back to you fast.
+  </div>
+</div>
+
+<footer>
+  <div class="footer-base">
+    <a href="/" class="f-logo"><img src="/logo.svg" alt="Iron Vault Digital" style="height:36px;width:auto"><span>Iron Vault Digital</span></a>
+    <div class="f-copy">© 2026 Iron Vault Digital · ABN 17 636 500 4
